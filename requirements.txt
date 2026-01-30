@@ -1,0 +1,16 @@
+streamlit
+validators
+python-dotenv
+beautifulsoup4
+
+langchain
+langchain-community
+langchain-groq
+langchain-text-splitters
+
+faiss-cpu
+sentence-transformers
+
+unstructured
+lxml
+html5lib
