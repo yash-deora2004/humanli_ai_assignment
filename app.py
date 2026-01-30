@@ -11,8 +11,7 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_core.prompts import PromptTemplate
 from langchain_classic.chains import ConversationalRetrievalChain
 
-load_dotenv()
-os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")
+
 
 st.set_page_config(page_title="Website Chatbot", page_icon="🤖")
 st.title("Website Q&A Chatbot")
@@ -180,4 +179,5 @@ if st.session_state.vectors:
                 for doc in result["source_documents"]:
                     st.write(doc.page_content[:400])
                     
+
 
