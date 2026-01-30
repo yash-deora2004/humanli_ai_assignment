@@ -180,3 +180,4 @@ if st.session_state.vectors:
                 for doc in result["source_documents"]:
                     st.write(doc.page_content[:400])
                     
+
